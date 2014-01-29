@@ -1,0 +1,113 @@
+html, body{ 
+	margin: 0; 
+	padding: 0; 
+	outline: 0; 
+	width: 100%;
+	}
+body{ 
+	background: url(images/background.gif) repeat top left;
+	text-align: center;
+	padding: 50px 0 30px;
+	border-top: 10px solid #4c4d4f;
+	}
+* html body{ height: 1%;}
+.staytuned{
+	font-family: "Myriad Pro";
+	color: #4d4d4d;
+	border-top: 2px solid #4d4d4d;
+	border-bottom: 2px solid #4d4d4d;
+	font-size: 3.3em;
+	width: 760px;
+	padding: 10px 0;
+	margin: 0 auto 50px;
+	}
+div img{ 
+	margin-bottom: 30px;
+	}
+
+
+.servicesbg{
+	background: #4c4d4f;
+	padding: 10px;
+	width: 760px;
+	min-height: 30px;
+	margin: 0 auto 15px;
+	
+	opacity: .3;
+	/*filter:alpha(opacity=20);*/
+}
+.services{
+	position: relative;
+	font-size: 1.6em;	
+	
+	margin: 0 auto;
+	top: -55px;
+	}
+.services a{ 
+	font-family: "Myriad Pro";
+	color: #fff;
+	position: relative;
+	z-index: 9;
+	opacity: 1;
+	}
+.services a + a{
+	border-left: 2px solid #fff;
+	padding-left: 15px;
+	margin-left: 10px;
+	}
+
+@media only screen and (max-width: 1270px) {
+	.services{
+	font-size: 1.4em;	
+	}
+@media only screen and (max-width: 767px) {
+	div.logo img{
+		height: 520px;
+		width: 480px;
+		}
+	.staytuned, .servicesbg{
+		width: 520px;
+		}
+	.services{ font-size: 1.1em;}
+	}
+@media only screen and (max-width: 540px) {
+	div.logo img{
+		height: 450px;
+		width: 420px;
+		}
+	.staytuned, .servicesbg{
+		width: 450px;
+		font-size: 1.5em;
+		}
+	.services{ font-size: .9em; top: -85px;}
+	}
+@media only screen and (max-width: 470px) {
+	div.logo img{
+		height: 350px;
+		width: 320px;
+		}
+	.staytuned, .servicesbg{
+		width: 350px;
+		font-size: 1.4em;
+		}
+	.servicesbg{ height: 40px;}
+	.services{line-height: 20px; top: -100px; }
+	}
+@media only screen and (max-width: 320px) {
+	div.logo img{
+		height: 250px;
+		width: 230px;
+		}
+	.staytuned, .servicesbg{
+		width: 250px;
+		}
+	.services{line-height: 23px; top: -105spx; }
+	.modalbox img{
+		width: 250px;
+		height: 70px;
+		margin: 0 auto;
+		}
+	}
+
+
+
